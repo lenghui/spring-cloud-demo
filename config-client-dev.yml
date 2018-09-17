@@ -1,4 +1,4 @@
 info:
-  profile: default
+  profile: prod
   from: git
 test: hehe
