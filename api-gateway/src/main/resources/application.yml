@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: api-gateway
+    
+server:
+  port: 1101
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka
+      
+zuul:
+  routes:
+    service1:
+      path: /hello/**
+      url: eureka-client
+    services2:
+      path: /world/**
+      url: eureka-consumer-robbin-hystrix
