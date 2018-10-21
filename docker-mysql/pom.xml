@@ -57,6 +57,18 @@
 	                <mainClass>com.Application</mainClass> <!--主类 包含main-->
 	            </configuration>
 	        </plugin>
+	        
+	        <plugin>
+	        	<groupId>com.keking.plugin</groupId>
+	        	<artifactId>erm-entity-maven-plugin</artifactId>
+	        	<version>1.0-SNAPSHOT</version>
+	        	<configuration>
+	        		<designs>
+	        			<design>admin.erm</design>
+	        		</designs>
+	        		<targetModule>com.mysql</targetModule>
+	        	</configuration>
+	        </plugin>
 	    </plugins>
 	</build>
 </project>

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mytest
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3306/mytest
+    username: root
+    password: admin

@@ -1,0 +1,21 @@
+LOAD DATA
+CHARACTERSET ZHS16GBK
+TRUNCATE INTO TABLE IMP_XY_MIR_ADDR
+FIELDS TERMINATED BY '|' OPTIONALLY ENCLOSED BY '"'  TRAILING NULLCOLS (
+    BANK                 "TRIM(:BANK)",
+    CUSTR_NBR            "TRIM(:CUSTR_NBR)",
+    ADDR_LINE1           "TRIM(:ADDR_LINE1)",
+    ADDR_LINE2           "TRIM(:ADDR_LINE2)",
+    ADDR_LINE3           "TRIM(:ADDR_LINE3)",
+    ADDR_LINE4           "TRIM(:ADDR_LINE4)",
+    ADDR_LINE5           "TRIM(:ADDR_LINE5)",
+    POST_CODE            "TRIM(:POST_CODE)",
+    STATE_C              "TRIM(:STATE_C)",
+    ADDR_TYPE            "TRIM(:ADDR_TYPE)",
+    REC_TYPE             "TRIM(:REC_TYPE)",
+    MERCHANT             "TRIM(:MERCHANT)",
+    OSEAADDR_F           "TRIM(:OSEAADDR_F)",
+    CHANGE_DAY           "TRIM(:CHANGE_DAY)",
+    CHANGE_TIME          "TRIM(:CHANGE_TIME)",
+    CREATE_DAY           "TRIM(:CREATE_DAY)",
+    CREATE_TIME          "TRIM(:CREATE_TIME)" )
