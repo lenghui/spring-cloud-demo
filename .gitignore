@@ -1,10 +1,9 @@
 /.metadata/
 Servers/
-/*/target/
 /*/.project
-/*/.classpath
-/*/.settings
 /.recommenders/
 /my-plugin/
 /account-service/
-
+.settings
+.classpath
+/*/target/
