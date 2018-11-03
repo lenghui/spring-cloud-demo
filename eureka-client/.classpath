@@ -32,5 +32,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/workspace_mytest/kekingcn-kk-erm-maven-plugin-master/kk-erm-maven-plugin/target/erm-entity-maven-plugin-1.1-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

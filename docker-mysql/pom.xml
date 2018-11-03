@@ -46,15 +46,15 @@
         </dependency>
     </dependencies>
     
-    <build>
-	    <finalName>docekr_mysql</finalName>  <!--最后的包文件名-->
+    <!-- <build>
+	    <finalName>docekr_mysql</finalName>  最后的包文件名
 	    <plugins>
 	        <plugin>
 	            <groupId>org.springframework.boot</groupId>
 	            <artifactId>spring-boot-maven-plugin</artifactId>
 	            <version>1.5.4.RELEASE</version>
 	            <configuration>
-	                <mainClass>com.Application</mainClass> <!--主类 包含main-->
+	                <mainClass>com.Application</mainClass> 主类 包含main
 	            </configuration>
 	        </plugin>
 	        
@@ -70,5 +70,5 @@
 	        	</configuration>
 	        </plugin>
 	    </plugins>
-	</build>
+	</build> -->
 </project>

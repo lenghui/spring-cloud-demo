@@ -32,6 +32,7 @@ public class DownloadService extends Thread{
         } else { // 纯下载方式
             response.setContentType("application/x-msdownload");
             response.setHeader("Content-Disposition", "attachment; filename=" + f.getName());
+            response.sendError(200, "下载成功!");
         }
         OutputStream out = response.getOutputStream();
         while ((len = br.read(buf)) > 0)
