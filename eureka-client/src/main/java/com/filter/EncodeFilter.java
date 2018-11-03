@@ -6,15 +6,11 @@ import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
-import javax.servlet.ServletInputStream;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
-import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Component;
-
-import com.netflix.infix.lang.infix.antlr.EventFilterParser.null_predicate_return;
 
 @Component
 @WebFilter(urlPatterns="/*")
