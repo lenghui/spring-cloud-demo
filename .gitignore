@@ -5,3 +5,6 @@ Servers/
 /*/.classpath
 /*/.settings
 /.recommenders/
+/my-plugin/
+/account-service/
+
