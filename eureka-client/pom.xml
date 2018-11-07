@@ -50,11 +50,25 @@
 			  <version>0.0.1-SNAPSHOT</version>
         </dependency>
         
-        <!--SpringBoot开发工具 （再此用于热部署）-->
+        <!--SpringBoot开发工具 （在此用于热部署）-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
         </dependency> 
+        
+        <!-- 添加poi依赖 适用于2003版本，处理xls格式表格-->
+        <dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi</artifactId>
+		    <version>3.17</version>
+		</dependency>
+		
+		<!-- 添加poi依赖 适用于2007版本，处理xlsx格式表格 -->
+		<dependency>
+		   <groupId>org.apache.poi</groupId>
+		   <artifactId>poi-ooxml</artifactId>
+		    <version>3.17</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
