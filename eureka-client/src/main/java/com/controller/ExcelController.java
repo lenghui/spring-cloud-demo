@@ -31,7 +31,8 @@ public class ExcelController {
 	
 	@GetMapping("/read")
 	public String readExcel() throws IOException {
-		excelImport.readExcel();
+		String fileName = "test.xlsx";
+		excelImport.readExcel(fileName);
 		return "excute";
 	}
 	
