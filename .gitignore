@@ -7,3 +7,5 @@ Servers/
 .settings
 .classpath
 /*/target/
+.factorypath
+xcx
