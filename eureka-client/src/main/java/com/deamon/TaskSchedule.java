@@ -21,17 +21,17 @@ public class TaskSchedule {
 	@Autowired
 	private DownloadService downloadService;
 	
-	@Scheduled(fixedDelay=3000)
-	public void name() {
-		System.out.println("time:"+new Date());
-	}
-	
-	@Scheduled(cron="0 * * * * ?")
-	public void cronName() {
-		logger.info("开始下载对账文件！");
-		downloadService.downloadFileFromServer("LOAN");
-		downloadService.downloadFileFromServer("RUT");
-		downloadService.downloadFileFromServer("SHD");
-		
-	}
+//	@Scheduled(fixedDelay=3000)
+//	public void name() {
+//		System.out.println("time:"+new Date());
+//	}
+//	
+//	@Scheduled(cron="0 * * * * ?")
+//	public void cronName() {
+//		logger.info("开始下载对账文件！");
+//		downloadService.downloadFileFromServer("LOAN");
+//		downloadService.downloadFileFromServer("RUT");
+//		downloadService.downloadFileFromServer("SHD");
+//		
+//	}
 }
